@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class BuildTree{
 
-    public void decTreeALg (Set instances, List attributes){
+    public LeafNode decisionAlgorithm (Set instances, List attributes){
 
         if (instances.isEmpty()){
             //return leaf node with name and prob of the overall most probabl class
@@ -20,6 +20,7 @@ public class BuildTree{
         }
 
         //else find find best attribute
+        return null;
 
     }
 }
