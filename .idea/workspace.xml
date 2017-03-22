@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f84393-b28f-404d-a187-b900e0cd33ff" name="Default" comment="">
+    <list default="true" id="35f84393-b28f-404d-a187-b900e0cd33ff" name="Default" comment="Add Node interface + methods">
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Node.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InnerNode.java" afterPath="$PROJECT_DIR$/src/InnerNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeafNode.java" afterPath="$PROJECT_DIR$/src/LeafNode.java" />
     </list>
@@ -50,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InnerNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InnerNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InnerNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -67,6 +68,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -77,7 +88,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/LeafNode.java" />
         <option value="$PROJECT_DIR$/src/InnerNode.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -505,6 +517,14 @@
             <element signature="e#467#468#0" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
