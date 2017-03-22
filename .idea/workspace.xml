@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f84393-b28f-404d-a187-b900e0cd33ff" name="Default" comment="Add Node interface + methods">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Node.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InnerNode.java" afterPath="$PROJECT_DIR$/src/InnerNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeafNode.java" afterPath="$PROJECT_DIR$/src/LeafNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Node.java" afterPath="$PROJECT_DIR$/src/Node.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,16 +38,26 @@
       <file leaf-file-name="LeafNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeafNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,26 +65,18 @@
       <file leaf-file-name="InnerNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InnerNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -88,16 +91,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/BuildTree.java" />
-        <option value="$PROJECT_DIR$/src/Node.java" />
-        <option value="$PROJECT_DIR$/src/LeafNode.java" />
-        <option value="$PROJECT_DIR$/src/InnerNode.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/LeafNode.java" />
+        <option value="$PROJECT_DIR$/src/Data/Node.java" />
+        <option value="$PROJECT_DIR$/src/InnerNode.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
       </list>
     </option>
   </component>
@@ -490,40 +494,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeafNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InnerNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>

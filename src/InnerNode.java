@@ -1,24 +1,29 @@
 /**
  * Created by Pri on 21/03/2017.
  */
-public class InnerNode {
-    public String classification;
-    public double probability;
+public class InnerNode implements Node{
+    public Node leftNode, rightNode;
+    public String attribute;
 
-    public InnerNode(String classification,double probability){
-        this.classification = classification;
-        this.probability = probability;
+    public InnerNode(String attr, Node left, Node right){
+        this.attribute = attr;
+        this.leftNode = left;
+        this.rightNode = right;
     }
 
-    public String getClassification() {
-        return classification;
+    public String getAttribute(){
+        return attribute;
     }
 
-    public double getProbability() {
-        return probability;
+    public Node getLeftNode(){
+        return leftNode;
+    }
+
+    public Node getRightNode(){
+        return rightNode;
     }
 
     public String toString(){
-        return "(Inner) Class: "+classification+" Prob: "+probability;
+        return "(Inner) Attribute:" +attribute;
     }
 }
