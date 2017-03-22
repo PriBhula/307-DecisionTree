@@ -1,7 +1,7 @@
 /**
  * Created by Pri on 21/03/2017.
  */
-public class InnerNode implements Node {
+public class InnerNode {
     public String classification;
     public double probability;
 
@@ -10,12 +10,10 @@ public class InnerNode implements Node {
         this.probability = probability;
     }
 
-    @Override
     public String getClassification() {
         return classification;
     }
 
-    @Override
     public double getProbability() {
         return probability;
     }
